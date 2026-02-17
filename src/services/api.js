@@ -1,7 +1,15 @@
-const BASE_URL = "http://localhost:3000";
-//'https://posttracheal-beckie-lithographical.ngrok-free.dev'//
+const BASE_URL = "https://posttracheal-beckie-lithographical.ngrok-free.dev";
+
+const headers = {
+  "Content-Type": "application/json",
+  "ngrok-skip-browser-warning": "true",
+};
+
 export const fetchTasks = async () => {
-  const response = await fetch(`${BASE_URL}/tasks`);
+  const response = await fetch(`${BASE_URL}/tasks`, {
+    method: "GET",
+    headers,
+  });
   if (!response.ok) {
     throw new Error("Failed to fetch tasks");
   }

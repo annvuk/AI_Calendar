@@ -43,7 +43,7 @@ const CalendarGrid = ({
       ))}
 
       {blanks.map((_, i) => (
-        <div key={`blank-${i}`} className="day-cell empty" />
+        <div key={`blank-${i}`} className="day-cell.empty" />
       ))}
 
       {days.map((day) => {
