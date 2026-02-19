@@ -26,6 +26,9 @@ const RightModal = ({ selectedDate, tasks }) => {
       return timeA.localeCompare(timeB);
     });
   };
+
+  
+
   return (
     <div className="right-modal-content">
       <div className="task-group">
@@ -41,7 +44,7 @@ const RightModal = ({ selectedDate, tasks }) => {
               >
                 {!task.start_time
                   ? task.title
-                  : `${task.start_time} — ${task.title}`}
+                  : `${task.start_time}${task.end_time ? `-${task.end_time}` : ''} — ${task.title}`}
               </li>
             ))}
           </ul>
@@ -62,7 +65,7 @@ const RightModal = ({ selectedDate, tasks }) => {
               <li key={task.id} className="task-item faded">
                 {!task.start_time
                   ? task.title
-                  : `${task.start_time} — ${task.title}`}
+                  : `${task.start_time}${task.end_time ? ` - ${task.end_time}` : ''} — ${task.title}`}
               </li>
             ))}
           </ul>

@@ -3,18 +3,20 @@ import { useState } from "react";
 const ManualTaskForm = ({ onSubmit, onCancel, currentDate }) => {
   const [title, setTitle] = useState("");
   const [time, setTime] = useState("");
+  const [endTime, setEndTime] = useState("");
   const [day, setDay] = useState(new Date().getDate());
-const [category, setCategory] = useState('');
+  const [category, setCategory] = useState("");
 
-const options = [
-  { id: "home", label: "Дом" },
-  { id: "work", label: "Работа" },
-  { id: "self", label: "Личное" }
-];
+  const options = [
+    { id: "home", label: "Дом" },
+    { id: "work", label: "Работа" },
+    { id: "self", label: "Саморазвитие" },
+  ];
 
-const handleChange = (event) => {
+  const handleChange = (event) => {
     setCategory(event.target.value);
   };
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -28,9 +30,8 @@ const handleChange = (event) => {
     onSubmit({
       title,
       start_time: time,
+      end_time: endTime,
       date: formattedDate,
-      duration_minutes: 60,
-      priority: "high",
       category: category,
     });
   };
@@ -58,20 +59,32 @@ const handleChange = (event) => {
           value={time}
           onChange={(e) => setTime(e.target.value)}
         />
+        <input
+          type="time"
+          value={endTime}
+          onChange={(e) => setEndTime(e.target.value)}
+          min={time}
+        />
         <select className="" value={category} onChange={handleChange}>
-        <option value="" disabled>Выберите...</option>
-        {options.map((option) => (
-          <option key={option.id} value={option.id}>
-            {option.label}
+          <option value="" disabled>
+            Выберите...
           </option>
-        ))}
+          {options.map((option) => (
+            <option key={option.id} value={option.id}>
+              {option.label}
+            </option>
+          ))}
         </select>
       </div>
       <div className="actions">
         <button type="button" onClick={onCancel}>
           Отмена
         </button>
-        <button onKeyDown={(e) => e.key === "Enter"&& onSubmit()} type="submit" className="primary">
+        <button
+          onKeyDown={(e) => e.key === "Enter" && onSubmit()}
+          type="submit"
+          className="primary"
+        >
           Создать
         </button>
       </div>
