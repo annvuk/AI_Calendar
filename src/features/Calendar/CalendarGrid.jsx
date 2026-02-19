@@ -7,6 +7,7 @@ const CalendarGrid = ({
   currentDate,
   onSelect,
 }) => {
+   
   const year = currentDate.getFullYear();
   const month = currentDate.getMonth() + 1;
 
@@ -61,7 +62,7 @@ const CalendarGrid = ({
               {dayTasks.slice(0, maxDots).map((task) => (
                 <div
                   key={task.id}
-                  className={`dot priority-${task.priority}`}
+                  className={`dot category-${task.category} `}
                 />
               ))}
               {dayTasks.length > maxDots && (

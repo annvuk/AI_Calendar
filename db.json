@@ -1,269 +1,94 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "title": "iwef",
-      "date": "2026-02-01",
-      "start_time": "14:00",
-      "duration_minutes": 30,
-      "priority": "high"
-    },
-    {
-      "title": "e2",
-      "start_time": null,
-      "date": "2026-02-02",
-      "duration_minutes": 60,
-      "priority": "low",
-      "id": "eKf5Jbl"
-    },
-    {
       "title": "23e",
-      "start_time": "11:11",
-      "date": "2026-02-02",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "_j1v4xS"
-    },
-    {
-      "title": "111",
-      "start_time": null,
-      "date": "2027-02-02",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "k8S41e2"
-    },
-    {
-      "title": "ewe",
-      "start_time": null,
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "qzwTCcf"
-    },
-    {
-      "title": "qe",
-      "start_time": "11:11",
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "UHwifLA"
-    },
-    {
-      "title": "afd",
-      "start_time": "11:11",
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "2JrNoBq"
-    },
-    {
-      "title": "wer",
-      "start_time": "23:04",
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "dREIRnM"
-    },
-    {
-      "title": "324",
-      "start_time": "23:23",
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "vBpCRbK"
-    },
-    {
-      "title": "2342423``",
-      "start_time": "03:43",
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "0UBCgkb"
-    },
-    {
-      "title": "234",
-      "start_time": "23:23",
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "KaXaYS7"
-    },
-    {
-      "title": "234",
-      "start_time": "23:23",
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "Y6J634f"
-    },
-    {
-      "title": "2324",
-      "start_time": "12:31",
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "Y5ygHoj"
-    },
-    {
-      "title": "23423``",
-      "start_time": "23:42",
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "5aOGral"
-    },
-    {
-      "title": "32",
-      "start_time": "23:23",
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "b4vDUBa"
-    },
-    {
-      "title": "32",
-      "start_time": "23:02",
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "bCHpmp7"
-    },
-    {
-      "title": "5351",
-      "start_time": "05:04",
-      "date": "2026-02-16",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "8fWRik4"
-    },
-    {
-      "title": "faf",
-      "start_time": "22:03",
-      "date": "2026-02-01",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "-_lz7YA"
-    },
-    {
-      "title": "23e",
-      "start_time": "11:11",
+      "start_time": "",
       "date": "2026-02-19",
       "duration_minutes": 60,
-      "priority": "medium",
-      "id": "jR_bS10"
+      "priority": "high",
+      "category": "work",
+      "id": 1
     },
     {
-      "title": "11",
-      "start_time": "11:11",
+      "title": "2",
+      "start_time": "",
       "date": "2026-02-19",
       "duration_minutes": 60,
-      "priority": "medium",
-      "id": "mVWa8uc"
+      "priority": "high",
+      "category": "home",
+      "id": 2
     },
     {
-      "title": "wd",
-      "start_time": "01:11",
-      "date": "2026-02-21",
+      "title": "23",
+      "start_time": "",
+      "date": "2026-02-19",
       "duration_minutes": 60,
-      "priority": "medium",
-      "id": "kXiMI7E"
+      "priority": "high",
+      "category": "self",
+      "id": 3
     },
     {
-      "title": "11",
-      "start_time": "11:11",
-      "date": "2026-02-20",
+      "title": "2",
+      "start_time": "",
+      "date": "2026-02-18",
       "duration_minutes": 60,
-      "priority": "medium",
-      "id": "eWiY72t"
+      "priority": "high",
+      "category": "",
+      "id": 4
     },
     {
-      "title": "21e",
-      "start_time": "11:11",
-      "date": "2026-02-23",
+      "title": "ee",
+      "start_time": "",
+      "date": "2026-02-19",
       "duration_minutes": 60,
-      "priority": "medium",
-      "id": "LesVpPl"
-    },
-    {
-      "title": "1w",
-      "start_time": "11:11",
-      "date": "2026-02-24",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "uRvzL7M"
-    },
-    {
-      "title": "1",
-      "start_time": "11:01",
-      "date": "2026-02-25",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "fDKwBdQ"
+      "priority": "high",
+      "category": "home",
+      "id": 5
     },
     {
       "title": "12",
-      "start_time": "11:11",
-      "date": "2026-02-26",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "Yh0-0VS"
-    },
-    {
-      "title": "234",
-      "start_time": "11:11",
-      "date": "2026-02-27",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "33t3-wO"
-    },
-    {
-      "title": "йук",
-      "start_time": "03:33",
-      "date": "2026-02-28",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "06tFxOa"
-    },
-    {
-      "title": "уке",
-      "start_time": "11:11",
-      "date": "2026-03-01",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "NA7ei8Q"
-    },
-    {
-      "title": "й2",
       "start_time": "",
-      "date": "2026-02-19",
+      "date": "2026-02-01",
       "duration_minutes": 60,
-      "priority": "medium",
-      "id": "ZYjSWyH"
+      "priority": "high",
+      "category": "home",
+      "id": 6
     },
     {
-      "title": "ц",
+      "title": "wq",
       "start_time": "",
-      "date": "2026-02-19",
+      "date": "2026-02-02",
       "duration_minutes": 60,
-      "priority": "medium",
-      "id": "MyxOg0s"
-    },
-    {
-      "title": "йув",
-      "start_time": "",
-      "date": "2026-02-11",
-      "duration_minutes": 60,
-      "priority": "medium",
-      "id": "gNodYSx"
+      "priority": "high",
+      "category": "work",
+      "id": 7
     },
     {
       "title": "1",
       "start_time": "",
-      "date": "2026-02-19",
+      "date": "2026-02-03",
       "duration_minutes": 60,
-      "priority": "medium",
-      "category": "Home",
-      "id": "BRKat6s"
+      "priority": "high",
+      "category": "self",
+      "id": 8
+    },
+    {
+      "title": "qe",
+      "start_time": "",
+      "date": "2026-02-23",
+      "duration_minutes": 60,
+      "priority": "high",
+      "category": "work",
+      "id": 9
+    },
+    {
+      "title": "3у",
+      "start_time": "",
+      "date": "2026-02-10",
+      "duration_minutes": 60,
+      "priority": "high",
+      "category": "home",
+      "id": 10
     }
   ]
 }

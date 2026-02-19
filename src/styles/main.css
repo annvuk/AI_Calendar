@@ -168,14 +168,14 @@ body {
     both;
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-.priority-high {
-  background-color: #ff4d4f;
+.category-home{
+  background-color: #3CC47C;
 }
-.priority-medium {
-  background-color: #faad14;
+.category-work {
+  background-color: #FFAF04;
 }
-.priority-low {
-  background-color: #52c41a;
+.category-self {
+  background-color: #3673FF;
 }
 
 .right-modal-content,

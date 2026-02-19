@@ -6,7 +6,11 @@ const ManualTaskForm = ({ onSubmit, onCancel, currentDate }) => {
   const [day, setDay] = useState(new Date().getDate());
 const [category, setCategory] = useState('');
 
-const options = ["Дом", "Работа", "Саморазвитие"];
+const options = [
+  { id: "home", label: "Дом" },
+  { id: "work", label: "Работа" },
+  { id: "self", label: "Личное" }
+];
 
 const handleChange = (event) => {
     setCategory(event.target.value);
@@ -15,6 +19,7 @@ const handleChange = (event) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!title) return;
+    if (!category) return;
 
     const year = currentDate.getFullYear();
     const month = currentDate.getMonth() + 1;
@@ -25,7 +30,7 @@ const handleChange = (event) => {
       start_time: time,
       date: formattedDate,
       duration_minutes: 60,
-      priority: "medium",
+      priority: "high",
       category: category,
     });
   };
@@ -56,8 +61,8 @@ const handleChange = (event) => {
         <select className="" value={category} onChange={handleChange}>
         <option value="" disabled>Выберите...</option>
         {options.map((option) => (
-          <option key={option} value={option}>
-            {option}
+          <option key={option.id} value={option.id}>
+            {option.label}
           </option>
         ))}
         </select>
