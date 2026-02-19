@@ -27,6 +27,12 @@ margin-bottom: 10px;
 padding: 8px;
 box-sizing: border-box;
 }
+.task-form select {
+    width: 100%;
+margin-bottom: 10px;
+padding: 8px;
+box-sizing: border-box;
+}
 .task-form .row {
 display: flex;
 gap: 10px;
@@ -67,4 +73,17 @@ padding: 12px;
 border: 1px solid #ddd;
 border-radius: 10px;
 outline: none;
+}
+select {
+    flex-grow: 1;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 10px;
+outline: none;
+}
+.close-btn {
+    border: none;
+    color:#000;
+    background-color: #ffff;
+    font-size: 2em;
 }
